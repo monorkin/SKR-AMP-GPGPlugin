@@ -53,7 +53,7 @@
 //
 - (void)loadAssets
 {
-    self.icon = [self loadImage: @"icon.png"];
+    self.icon = [self loadImage: @"icon.psd"];
 }
 
 #pragma mark - Plugin methods

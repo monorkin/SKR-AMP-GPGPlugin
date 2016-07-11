@@ -19,7 +19,6 @@
 		4A7A713B1D3126DD001162F1 /* SKRAMPGpg.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A713A1D3126DD001162F1 /* SKRAMPGpg.m */; };
 		4A7A71421D312AA3001162F1 /* SKR-AMP-GPGPlugin.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A7A71251D31250F001162F1 /* SKR-AMP-GPGPlugin.bundle */; };
 		4A7A71461D312D79001162F1 /* SKRAMPGpgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A71451D312D79001162F1 /* SKRAMPGpgView.m */; };
-		4A7A71501D323DEC001162F1 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7A714F1D323DEC001162F1 /* icon.png */; };
 		4AF8EC0D1D33A5C3002C8B03 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AF8EC0F1D33A5C3002C8B03 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
@@ -59,8 +58,7 @@
 		4A7A713A1D3126DD001162F1 /* SKRAMPGpg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRAMPGpg.m; path = Classes/SKRAMPGpg.m; sourceTree = "<group>"; };
 		4A7A71441D312D79001162F1 /* SKRAMPGpgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKRAMPGpgView.h; path = Views/SKRAMPGpgView.h; sourceTree = "<group>"; };
 		4A7A71451D312D79001162F1 /* SKRAMPGpgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRAMPGpgView.m; path = Views/SKRAMPGpgView.m; sourceTree = "<group>"; };
-		4A7A714E1D323DE1001162F1 /* icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = icon.psd; path = Assets/Raw/icon.psd; sourceTree = "<group>"; };
-		4A7A714F1D323DEC001162F1 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Assets/Images/icon.png; sourceTree = "<group>"; };
+		4A7A714E1D323DE1001162F1 /* icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = icon.psd; path = Assets/Images/icon.psd; sourceTree = "<group>"; };
 		4AF8EC0E1D33A5C3002C8B03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				4A7A71511D325F17001162F1 /* Localizations */,
-				4A7A714D1D323DC6001162F1 /* Raw */,
 				4A7A71471D3232B7001162F1 /* Images */,
 			);
 			name = Assets;
@@ -167,17 +164,9 @@
 		4A7A71471D3232B7001162F1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				4A7A714F1D323DEC001162F1 /* icon.png */,
-			);
-			name = Images;
-			sourceTree = "<group>";
-		};
-		4A7A714D1D323DC6001162F1 /* Raw */ = {
-			isa = PBXGroup;
-			children = (
 				4A7A714E1D323DE1001162F1 /* icon.psd */,
 			);
-			name = Raw;
+			name = Images;
 			sourceTree = "<group>";
 		};
 		4A7A71511D325F17001162F1 /* Localizations */ = {
@@ -246,7 +235,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF8EC0D1D33A5C3002C8B03 /* Localizable.strings in Resources */,
-				4A7A71501D323DEC001162F1 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
