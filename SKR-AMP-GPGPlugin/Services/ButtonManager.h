@@ -9,6 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <AMPluginFramework/AMPluginFramework.h>
 
+enum skr_amp_gpg_plugin_button_tags {
+    SKRAMPGpgPluginEncryptButtonTag = 313778001,
+    SKRAMPGpgPluginSignButtonTag = 313778002,
+};
+
 @interface ButtonManager : NSObject
 
 @property (nonatomic) AMPComposerInfo *info;

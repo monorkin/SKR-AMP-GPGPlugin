@@ -14,6 +14,7 @@
 		4A3B7F7B1D34202900029768 /* SignatureVerifyer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F7A1D34202900029768 /* SignatureVerifyer.m */; };
 		4A3B7F7E1D3421B800029768 /* MessageDecrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F7D1D3421B800029768 /* MessageDecrypter.m */; };
 		4A3B7F811D342D4700029768 /* MessageBadgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F801D342D4700029768 /* MessageBadgeManager.m */; };
+		4A3B7F841D3431DF00029768 /* Cryptography.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F831D3431DF00029768 /* Cryptography.m */; };
 		4A7A71321D31258C001162F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7A71311D31258C001162F1 /* Cocoa.framework */; };
 		4A7A71361D312660001162F1 /* AMPluginFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7A71351D312660001162F1 /* AMPluginFramework.framework */; };
 		4A7A713B1D3126DD001162F1 /* SKRAMPGpg.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A713A1D3126DD001162F1 /* SKRAMPGpg.m */; };
@@ -50,6 +51,8 @@
 		4A3B7F7D1D3421B800029768 /* MessageDecrypter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageDecrypter.m; path = Services/MessageDecrypter.m; sourceTree = "<group>"; };
 		4A3B7F7F1D342D4700029768 /* MessageBadgeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageBadgeManager.h; path = Services/MessageBadgeManager.h; sourceTree = "<group>"; };
 		4A3B7F801D342D4700029768 /* MessageBadgeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageBadgeManager.m; path = Services/MessageBadgeManager.m; sourceTree = "<group>"; };
+		4A3B7F821D3431DF00029768 /* Cryptography.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cryptography.h; path = Services/Cryptography.h; sourceTree = "<group>"; };
+		4A3B7F831D3431DF00029768 /* Cryptography.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cryptography.m; path = Services/Cryptography.m; sourceTree = "<group>"; };
 		4A7A71251D31250F001162F1 /* SKR-AMP-GPGPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SKR-AMP-GPGPlugin.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7A71281D31250F001162F1 /* SKRAMPGpg-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKRAMPGpg-Info.plist"; sourceTree = "<group>"; };
 		4A7A71311D31258C001162F1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -78,6 +81,8 @@
 		4A3B7F6F1D3411C300029768 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				4A3B7F821D3431DF00029768 /* Cryptography.h */,
+				4A3B7F831D3431DF00029768 /* Cryptography.m */,
 				4A3B7F6C1D3411B900029768 /* ButtonManager.h */,
 				4A3B7F6D1D3411B900029768 /* ButtonManager.m */,
 				4A3B7F701D34139900029768 /* MessageEncrypter.h */,
@@ -246,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A3B7F781D341F0700029768 /* EncryptionChecker.m in Sources */,
+				4A3B7F841D3431DF00029768 /* Cryptography.m in Sources */,
 				4A3B7F7B1D34202900029768 /* SignatureVerifyer.m in Sources */,
 				4A7A713B1D3126DD001162F1 /* SKRAMPGpg.m in Sources */,
 				4A3B7F751D341A5F00029768 /* EncryptionCapabilityChecker.m in Sources */,
