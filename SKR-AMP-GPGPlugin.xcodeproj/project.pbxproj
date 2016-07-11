@@ -13,7 +13,7 @@
 		4A7A71421D312AA3001162F1 /* SKR-AMP-GPGPlugin.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A7A71251D31250F001162F1 /* SKR-AMP-GPGPlugin.bundle */; };
 		4A7A71461D312D79001162F1 /* SKRAMPGpgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A71451D312D79001162F1 /* SKRAMPGpgView.m */; };
 		4A7A71501D323DEC001162F1 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7A714F1D323DEC001162F1 /* icon.png */; };
-		4A7A71531D325FB8001162F1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A7A71551D325FB8001162F1 /* Localizable.strings */; };
+		4AF8EC0D1D33A5C3002C8B03 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AF8EC0F1D33A5C3002C8B03 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,7 +40,7 @@
 		4A7A71451D312D79001162F1 /* SKRAMPGpgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRAMPGpgView.m; path = Views/SKRAMPGpgView.m; sourceTree = "<group>"; };
 		4A7A714E1D323DE1001162F1 /* icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = icon.psd; path = Assets/Raw/icon.psd; sourceTree = "<group>"; };
 		4A7A714F1D323DEC001162F1 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Assets/Images/icon.png; sourceTree = "<group>"; };
-		4A7A71541D325FB8001162F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4AF8EC0E1D33A5C3002C8B03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +140,7 @@
 		4A7A71511D325F17001162F1 /* Localizations */ = {
 			isa = PBXGroup;
 			children = (
-				4A7A71551D325FB8001162F1 /* Localizable.strings */,
+				4AF8EC0F1D33A5C3002C8B03 /* Localizable.strings */,
 			);
 			name = Localizations;
 			sourceTree = "<group>";
@@ -202,8 +202,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF8EC0D1D33A5C3002C8B03 /* Localizable.strings in Resources */,
 				4A7A71501D323DEC001162F1 /* icon.png in Resources */,
-				4A7A71531D325FB8001162F1 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,12 +222,13 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4A7A71551D325FB8001162F1 /* Localizable.strings */ = {
+		4AF8EC0F1D33A5C3002C8B03 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4A7A71541D325FB8001162F1 /* en */,
+				4AF8EC0E1D33A5C3002C8B03 /* en */,
 			);
 			name = Localizable.strings;
+			path = Assets/Localizations;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -105,4 +105,49 @@
     return _icon;
 }
 
+#pragma mark - Airmail plugin hooks
+
+// Views that should be added to the recipients input
+- (NSArray *)ampPileComposerView:(AMPComposerInfo *)info
+{
+    
+}
+
+// Called each time a recipient has been added or removed
+- (NSNumber *)ampPileChangedRecipients:(AMPComposerInfo *)info
+{
+    
+}
+
+// Called to check if the message is encrypted
+- (NSNumber *)ampPileIsEncrypted:(AMPMCOMessageParser*)parser
+{
+    
+}
+
+// Called to check if the message is signed
+- (AMPSignatureVerify *)ampPileVerifySignature:(AMPMessage*)message
+{
+    
+}
+
+// Called to decrypt the message before rendering
+- (NSData *)ampStackDecrypt:(AMPMessage*)message
+{
+    
+}
+
+// Called befor the message gets sent
+- (AMPSendResult *)ampStackSendRfc:(NSString*)rfc composer:(AMPComposerInfo*)info
+{
+    
+}
+
+// Called to render the message body
+- (NSArray *)ampPileMessageView:(AMPMessage*)message {
+    
+}
+
+
+
 @end
