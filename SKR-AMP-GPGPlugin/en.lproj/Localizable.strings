@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  SKR-AMP-GPGPlugin
+
+  Created by Stanko Krtalic Rusendic on 10/07/16.
+  Copyright © 2016 Monorkin. All rights reserved.
+*/
+
+"plugin_name" = "SKR GPG";
+"plugin_description" = "A better integration of PGP/GPG message encryption and signing into Airmail.";
+"plugin_author" = "Stanko Krtalić Rusendić";
+"plugin_support_link" = "https://github.com/Stankec/SKR-AMP-GPGPlugin";

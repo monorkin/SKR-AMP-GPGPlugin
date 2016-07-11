@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BC037890B4938C2D5E8A06A3F86CFDCA89BB271C" : 0,
+    "E5D7FB381065A2ED271D8837F5F688625C661FD7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8031E146-5AF2-4010-9295-FCF75CDDE812",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BC037890B4938C2D5E8A06A3F86CFDCA89BB271C" : "..\/Libmacgpg",
+    "E5D7FB381065A2ED271D8837F5F688625C661FD7" : "..\/AirmailPlugIn-Framework"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SKR-AMP-GPGPlugin",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SKR-AMP-GPGPlugin.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GPGTools\/Libmacgpg.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC037890B4938C2D5E8A06A3F86CFDCA89BB271C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Airmail\/AirmailPlugIn-Framework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E5D7FB381065A2ED271D8837F5F688625C661FD7"
+    }
+  ]
+}

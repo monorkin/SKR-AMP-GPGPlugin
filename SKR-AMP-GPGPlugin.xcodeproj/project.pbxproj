@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A7A71321D31258C001162F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7A71311D31258C001162F1 /* Cocoa.framework */; };
+		4A7A71361D312660001162F1 /* AMPluginFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7A71351D312660001162F1 /* AMPluginFramework.framework */; };
+		4A7A713B1D3126DD001162F1 /* SKRAMPGpg.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A713A1D3126DD001162F1 /* SKRAMPGpg.m */; };
+		4A7A71421D312AA3001162F1 /* SKR-AMP-GPGPlugin.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A7A71251D31250F001162F1 /* SKR-AMP-GPGPlugin.bundle */; };
+		4A7A71461D312D79001162F1 /* SKRAMPGpgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A71451D312D79001162F1 /* SKRAMPGpgView.m */; };
+		4A7A71501D323DEC001162F1 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7A714F1D323DEC001162F1 /* icon.png */; };
+		4A7A71531D325FB8001162F1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A7A71551D325FB8001162F1 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A7A71411D312A93001162F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/Containers/it.bloop.airmail2/Data/Library/Application Support/Airmail/General/Plugins";
+			dstSubfolderSpec = 0;
+			files = (
+				4A7A71421D312AA3001162F1 /* SKR-AMP-GPGPlugin.bundle in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A7A71251D31250F001162F1 /* SKR-AMP-GPGPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SKR-AMP-GPGPlugin.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7A71281D31250F001162F1 /* SKRAMPGpg-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKRAMPGpg-Info.plist"; sourceTree = "<group>"; };
+		4A7A71311D31258C001162F1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4A7A71351D312660001162F1 /* AMPluginFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMPluginFramework.framework; path = Frameworks/AMPluginFramework.framework; sourceTree = "<group>"; };
+		4A7A71391D3126DD001162F1 /* SKRAMPGpg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKRAMPGpg.h; path = Classes/SKRAMPGpg.h; sourceTree = "<group>"; };
+		4A7A713A1D3126DD001162F1 /* SKRAMPGpg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRAMPGpg.m; path = Classes/SKRAMPGpg.m; sourceTree = "<group>"; };
+		4A7A71441D312D79001162F1 /* SKRAMPGpgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKRAMPGpgView.h; path = Views/SKRAMPGpgView.h; sourceTree = "<group>"; };
+		4A7A71451D312D79001162F1 /* SKRAMPGpgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRAMPGpgView.m; path = Views/SKRAMPGpgView.m; sourceTree = "<group>"; };
+		4A7A714E1D323DE1001162F1 /* icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = icon.psd; path = Assets/Raw/icon.psd; sourceTree = "<group>"; };
+		4A7A714F1D323DEC001162F1 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Assets/Images/icon.png; sourceTree = "<group>"; };
+		4A7A71541D325FB8001162F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A7A71221D31250F001162F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7A71361D312660001162F1 /* AMPluginFramework.framework in Frameworks */,
+				4A7A71321D31258C001162F1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A7A711C1D31250F001162F1 = {
+			isa = PBXGroup;
+			children = (
+				4A7A71271D31250F001162F1 /* SKR-AMP-GPGPlugin */,
+				4A7A71301D31257C001162F1 /* Frameworks */,
+				4A7A71261D31250F001162F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A7A71261D31250F001162F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A71251D31250F001162F1 /* SKR-AMP-GPGPlugin.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A7A71271D31250F001162F1 /* SKR-AMP-GPGPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A71281D31250F001162F1 /* SKRAMPGpg-Info.plist */,
+				4A7A71401D3128F0001162F1 /* Assets */,
+				4A7A713D1D3126F0001162F1 /* Classes */,
+				4A7A71431D312D38001162F1 /* Views */,
+			);
+			path = "SKR-AMP-GPGPlugin";
+			sourceTree = "<group>";
+		};
+		4A7A71301D31257C001162F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A71351D312660001162F1 /* AMPluginFramework.framework */,
+				4A7A71311D31258C001162F1 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A7A713D1D3126F0001162F1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A71391D3126DD001162F1 /* SKRAMPGpg.h */,
+				4A7A713A1D3126DD001162F1 /* SKRAMPGpg.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		4A7A71401D3128F0001162F1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A71511D325F17001162F1 /* Localizations */,
+				4A7A714D1D323DC6001162F1 /* Raw */,
+				4A7A71471D3232B7001162F1 /* Images */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		4A7A71431D312D38001162F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A71441D312D79001162F1 /* SKRAMPGpgView.h */,
+				4A7A71451D312D79001162F1 /* SKRAMPGpgView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4A7A71471D3232B7001162F1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A714F1D323DEC001162F1 /* icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4A7A714D1D323DC6001162F1 /* Raw */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A714E1D323DE1001162F1 /* icon.psd */,
+			);
+			name = Raw;
+			sourceTree = "<group>";
+		};
+		4A7A71511D325F17001162F1 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A71551D325FB8001162F1 /* Localizable.strings */,
+			);
+			name = Localizations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A7A71241D31250F001162F1 /* SKR-AMP-GPGPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A7A712B1D31250F001162F1 /* Build configuration list for PBXNativeTarget "SKR-AMP-GPGPlugin" */;
+			buildPhases = (
+				4A7A71211D31250F001162F1 /* Sources */,
+				4A7A71221D31250F001162F1 /* Frameworks */,
+				4A7A71231D31250F001162F1 /* Resources */,
+				4A7A71411D312A93001162F1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SKR-AMP-GPGPlugin";
+			productName = "SKR-AMP-GPGPlugin";
+			productReference = 4A7A71251D31250F001162F1 /* SKR-AMP-GPGPlugin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A7A711D1D31250F001162F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Monorkin;
+				TargetAttributes = {
+					4A7A71241D31250F001162F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A7A71201D31250F001162F1 /* Build configuration list for PBXProject "SKR-AMP-GPGPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A7A711C1D31250F001162F1;
+			productRefGroup = 4A7A71261D31250F001162F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A7A71241D31250F001162F1 /* SKR-AMP-GPGPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A7A71231D31250F001162F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7A71501D323DEC001162F1 /* icon.png in Resources */,
+				4A7A71531D325FB8001162F1 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A7A71211D31250F001162F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7A713B1D3126DD001162F1 /* SKRAMPGpg.m in Sources */,
+				4A7A71461D312D79001162F1 /* SKRAMPGpgView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A7A71551D325FB8001162F1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7A71541D325FB8001162F1 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A7A71291D31250F001162F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A7A712A1D31250F001162F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A7A712C1D31250F001162F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "SKR-AMP-GPGPlugin/SKRAMPGpg-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.stanko.SKR-AMP-GPGPlugin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4A7A712D1D31250F001162F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "SKR-AMP-GPGPlugin/SKRAMPGpg-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.stanko.SKR-AMP-GPGPlugin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A7A71201D31250F001162F1 /* Build configuration list for PBXProject "SKR-AMP-GPGPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7A71291D31250F001162F1 /* Debug */,
+				4A7A712A1D31250F001162F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A7A712B1D31250F001162F1 /* Build configuration list for PBXNativeTarget "SKR-AMP-GPGPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7A712C1D31250F001162F1 /* Debug */,
+				4A7A712D1D31250F001162F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A7A711D1D31250F001162F1 /* Project object */;
+}
