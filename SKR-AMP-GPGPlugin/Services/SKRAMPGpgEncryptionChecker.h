@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <AMPluginFramework/AMPluginFramework.h>
 
-@interface EncryptionChecker : NSObject
+@interface SKRAMPGpgEncryptionChecker : NSObject
 
 @property (nonatomic) AMPMCOMessageParser *parser;
 

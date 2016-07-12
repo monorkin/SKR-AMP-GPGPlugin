@@ -6,8 +6,8 @@
 //  Copyright © 2016 Monorkin. All rights reserved.
 //
 
-#import "MessageDecrypter.h"
+#import "SKRAMPGpgMessageDecrypter.h"
 
-@implementation MessageDecrypter
+@implementation SKRAMPGpgMessageDecrypter
 
 @end

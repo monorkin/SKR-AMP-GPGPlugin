@@ -15,7 +15,7 @@ enum skr_amp_gpg_plugin_button_tags {
     SKRAMPGpgPluginSignButtonTag = 313778002,
 };
 
-@interface ButtonManager : NSObject
+@interface SKRAMPGpgButtonManager : NSObject
 
 @property (nonatomic) NSImage *activeEncryptImage;
 @property (nonatomic) NSImage *inactiveEncryptImage;

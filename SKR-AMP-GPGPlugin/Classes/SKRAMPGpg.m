@@ -139,7 +139,7 @@
 //
 - (NSArray *)ampPileComposerView: (AMPComposerInfo *)info
 {
-    ButtonManager *buttonManager = [self buildButtonManagerWithInfo: info];
+    SKRAMPGpgButtonManager *buttonManager = [self buildButtonManagerWithInfo: info];
     return buttonManager.buildComposerButtons;
 }
 
@@ -151,13 +151,13 @@
 //
 - (NSNumber *)ampPileChangedRecipients: (AMPComposerInfo *)info
 {
-    EncryptionCapabilityChecker *encryptionCapabilityChecker = [[EncryptionCapabilityChecker alloc] init];
+    SKRAMPGpgEncryptionCapabilityChecker *encryptionCapabilityChecker = [[SKRAMPGpgEncryptionCapabilityChecker alloc] init];
     encryptionCapabilityChecker.info = info;
     
     BOOL canEncrypt = encryptionCapabilityChecker.canEncrypt;
     BOOL canSign = encryptionCapabilityChecker.canSign;
     
-    ButtonManager *buttonManager = [self buildButtonManagerWithInfo: info];
+    SKRAMPGpgButtonManager *buttonManager = [self buildButtonManagerWithInfo: info];
     
     [buttonManager setButtonStatesFromCanEncrypt: canEncrypt
                                       andCanSign: canSign];
@@ -169,10 +169,10 @@
 //
 - (NSNumber *)ampPileIsEncrypted: (AMPMCOMessageParser *)parser
 {
-    EncryptionChecker *encryptionChecker = [[EncryptionChecker alloc] init];
+    SKRAMPGpgEncryptionChecker *encryptionChecker = [[SKRAMPGpgEncryptionChecker alloc] init];
     encryptionChecker.parser = parser;
     
-    return @(encryptionChecker.isEncrypted);
+    return @(encryptionChecker.encryptionStatus);
 }
 
 // Called to check if the message is signed
@@ -183,7 +183,7 @@
 //
 - (AMPSignatureVerify *)ampPileVerifySignature: (AMPMessage *)message
 {
-    SignatureVerifyer *signatureVerifyer = [[SignatureVerifyer alloc] init];
+    SKRAMPGpgSignatureVerifyer *signatureVerifyer = [[SKRAMPGpgSignatureVerifyer alloc] init];
     signatureVerifyer.message = message;
     
     AMPSignatureVerify *signatureVerification = nil;
@@ -211,7 +211,7 @@
 {
     NSData *data = nil;
     
-    MessageDecrypter *messageDecrypter = [[MessageDecrypter alloc] init];
+    SKRAMPGpgMessageDecrypter *messageDecrypter = [[SKRAMPGpgMessageDecrypter alloc] init];
     messageDecrypter.message = message;
     
     @try
@@ -248,7 +248,7 @@
     AMPSendResult *sendResult = [AMPSendResult new];
     sendResult.result = AMP_SEND_RESULT_NONE;
     
-    ButtonManager *buttonManager = [self buildButtonManagerWithInfo: info];
+    SKRAMPGpgButtonManager *buttonManager = [self buildButtonManagerWithInfo: info];
     
     BOOL shouldEncrypt = buttonManager.shouldEncrypt;
     BOOL shouldSign = buttonManager.shouldSign;
@@ -258,7 +258,7 @@
         return sendResult;
     }
     
-    MessageEncrypter *messageEncrypter = [[MessageEncrypter alloc] init];
+    SKRAMPGpgMessageEncrypter *messageEncrypter = [[SKRAMPGpgMessageEncrypter alloc] init];
     messageEncrypter.rfc = rfc;
     messageEncrypter.info = info;
     messageEncrypter.shouldEncrypt = shouldEncrypt;
@@ -284,7 +284,7 @@
 //
 - (NSArray *)ampPileMessageView: (AMPMessage *)message
 {
-    MessageBadgeManager *messageBadgeManager = [[MessageBadgeManager alloc] init];
+    SKRAMPGpgMessageBadgeManager *messageBadgeManager = [[SKRAMPGpgMessageBadgeManager alloc] init];
     messageBadgeManager.message = message;
     
     messageBadgeManager.encryptionStatus = [self.encryptedMessages objectForKey: message.idx];
@@ -307,9 +307,9 @@
 
 // Builds a button manager and forwards all needed resources
 //
-- (ButtonManager *)buildButtonManagerWithInfo: (AMPComposerInfo *)info
+- (SKRAMPGpgButtonManager *)buildButtonManagerWithInfo: (AMPComposerInfo *)info
 {
-    ButtonManager *buttonManager = [[ButtonManager alloc] init];
+    SKRAMPGpgButtonManager *buttonManager = [[SKRAMPGpgButtonManager alloc] init];
     
     buttonManager.info = info;
     buttonManager.plugin = self;

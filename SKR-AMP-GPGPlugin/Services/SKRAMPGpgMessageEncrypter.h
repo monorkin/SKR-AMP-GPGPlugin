@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <AMPluginFramework/AMPluginFramework.h>
 
-@interface MessageEncrypter : NSObject
+@interface SKRAMPGpgMessageEncrypter : NSObject
 
 @property (nonatomic) AMPComposerInfo *info;
 @property (nonatomic) NSString *rfc;

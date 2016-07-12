@@ -1,5 +1,5 @@
 //
-//  SignatureVerifyer.h
+//  MessageDecrypter.h
 //  SKR-AMP-GPGPlugin
 //
 //  Created by Stanko Krtalic Rusendic on 11/07/16.
@@ -9,10 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <AMPluginFramework/AMPluginFramework.h>
 
-@interface SignatureVerifyer : NSObject
+@interface SKRAMPGpgMessageDecrypter : NSObject
 
 @property (nonatomic) AMPMessage *message;
 
-- (AMPSignatureVerify *)verify;
+- (NSData *)decrypt;
 
 @end

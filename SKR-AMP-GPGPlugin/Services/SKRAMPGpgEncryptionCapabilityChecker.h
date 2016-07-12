@@ -8,9 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import <AMPluginFramework/AMPluginFramework.h>
+#import "SKRAMPGpgCryptography.h"
 
-@interface EncryptionCapabilityChecker : NSObject
+@interface SKRAMPGpgEncryptionCapabilityChecker : NSObject
 
+@property (nonatomic) SKRAMPGpgCryptography *cryptography;
 @property (nonatomic) AMPComposerInfo *info;
 
 - (BOOL)canSign;

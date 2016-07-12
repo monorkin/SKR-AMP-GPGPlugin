@@ -11,13 +11,13 @@
 // Views
 #import "SKRAMpGpgView.h"
 // Services
-#import "ButtonManager.h"
-#import "MessageEncrypter.h"
-#import "MessageDecrypter.h"
-#import "EncryptionCapabilityChecker.h"
-#import "EncryptionChecker.h"
-#import "SignatureVerifyer.h"
-#import "MessageBadgeManager.h"
+#import "SKRAMPGpgButtonManager.h"
+#import "SKRAMPGpgMessageEncrypter.h"
+#import "SKRAMPGpgMessageDecrypter.h"
+#import "SKRAMPGpgEncryptionCapabilityChecker.h"
+#import "SKRAMPGpgEncryptionChecker.h"
+#import "SKRAMPGpgSignatureVerifyer.h"
+#import "SKRAMPGpgMessageBadgeManager.h"
 
 extern NSString * const AMPGpgRemeberChoice;
 

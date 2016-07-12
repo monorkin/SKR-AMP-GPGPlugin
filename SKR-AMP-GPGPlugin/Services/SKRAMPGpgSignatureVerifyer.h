@@ -1,5 +1,5 @@
 //
-//  MessageBadgeManager.h
+//  SignatureVerifyer.h
 //  SKR-AMP-GPGPlugin
 //
 //  Created by Stanko Krtalic Rusendic on 11/07/16.
@@ -9,12 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <AMPluginFramework/AMPluginFramework.h>
 
-@interface MessageBadgeManager : NSObject
+@interface SKRAMPGpgSignatureVerifyer : NSObject
 
 @property (nonatomic) AMPMessage *message;
-@property (nonatomic) NSNumber *encryptionStatus;
-@property (nonatomic) NSNumber *signatureStatus;
 
-- (NSArray *)generateBadges;
+- (AMPSignatureVerify *)verify;
 
 @end

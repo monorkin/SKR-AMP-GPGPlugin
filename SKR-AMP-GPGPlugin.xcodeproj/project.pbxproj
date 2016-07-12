@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A3B7F6E1D3411B900029768 /* ButtonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F6D1D3411B900029768 /* ButtonManager.m */; };
-		4A3B7F721D34139900029768 /* MessageEncrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F711D34139900029768 /* MessageEncrypter.m */; };
-		4A3B7F751D341A5F00029768 /* EncryptionCapabilityChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F741D341A5F00029768 /* EncryptionCapabilityChecker.m */; };
-		4A3B7F781D341F0700029768 /* EncryptionChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F771D341F0700029768 /* EncryptionChecker.m */; };
-		4A3B7F7B1D34202900029768 /* SignatureVerifyer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F7A1D34202900029768 /* SignatureVerifyer.m */; };
-		4A3B7F7E1D3421B800029768 /* MessageDecrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F7D1D3421B800029768 /* MessageDecrypter.m */; };
-		4A3B7F811D342D4700029768 /* MessageBadgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F801D342D4700029768 /* MessageBadgeManager.m */; };
-		4A3B7F841D3431DF00029768 /* Cryptography.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F831D3431DF00029768 /* Cryptography.m */; };
+		4A3B7F6E1D3411B900029768 /* SKRAMPGpgButtonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F6D1D3411B900029768 /* SKRAMPGpgButtonManager.m */; };
+		4A3B7F721D34139900029768 /* SKRAMPGpgMessageEncrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F711D34139900029768 /* SKRAMPGpgMessageEncrypter.m */; };
+		4A3B7F751D341A5F00029768 /* SKRAMPGpgEncryptionCapabilityChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F741D341A5F00029768 /* SKRAMPGpgEncryptionCapabilityChecker.m */; };
+		4A3B7F781D341F0700029768 /* SKRAMPGpgEncryptionChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F771D341F0700029768 /* SKRAMPGpgEncryptionChecker.m */; };
+		4A3B7F7B1D34202900029768 /* SKRAMPGpgSignatureVerifyer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F7A1D34202900029768 /* SKRAMPGpgSignatureVerifyer.m */; };
+		4A3B7F7E1D3421B800029768 /* SKRAMPGpgMessageDecrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F7D1D3421B800029768 /* SKRAMPGpgMessageDecrypter.m */; };
+		4A3B7F811D342D4700029768 /* SKRAMPGpgMessageBadgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F801D342D4700029768 /* SKRAMPGpgMessageBadgeManager.m */; };
+		4A3B7F841D3431DF00029768 /* SKRAMPGpgCryptography.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F831D3431DF00029768 /* SKRAMPGpgCryptography.m */; };
 		4A3B7F871D34CA3400029768 /* SKRAMPGpgButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F861D34CA3400029768 /* SKRAMPGpgButton.m */; };
 		4A3B7F891D34F3BF00029768 /* Libmacgpg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3B7F881D34F3BF00029768 /* Libmacgpg.framework */; };
 		4A7A71321D31258C001162F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7A71311D31258C001162F1 /* Cocoa.framework */; };
@@ -39,22 +39,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4A3B7F6C1D3411B900029768 /* ButtonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonManager.h; path = Services/ButtonManager.h; sourceTree = "<group>"; };
-		4A3B7F6D1D3411B900029768 /* ButtonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonManager.m; path = Services/ButtonManager.m; sourceTree = "<group>"; };
-		4A3B7F701D34139900029768 /* MessageEncrypter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageEncrypter.h; path = Services/MessageEncrypter.h; sourceTree = "<group>"; };
-		4A3B7F711D34139900029768 /* MessageEncrypter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageEncrypter.m; path = Services/MessageEncrypter.m; sourceTree = "<group>"; };
-		4A3B7F731D341A5F00029768 /* EncryptionCapabilityChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EncryptionCapabilityChecker.h; path = Services/EncryptionCapabilityChecker.h; sourceTree = "<group>"; };
-		4A3B7F741D341A5F00029768 /* EncryptionCapabilityChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EncryptionCapabilityChecker.m; path = Services/EncryptionCapabilityChecker.m; sourceTree = "<group>"; };
-		4A3B7F761D341F0700029768 /* EncryptionChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EncryptionChecker.h; path = Services/EncryptionChecker.h; sourceTree = "<group>"; };
-		4A3B7F771D341F0700029768 /* EncryptionChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EncryptionChecker.m; path = Services/EncryptionChecker.m; sourceTree = "<group>"; };
-		4A3B7F791D34202900029768 /* SignatureVerifyer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignatureVerifyer.h; path = Services/SignatureVerifyer.h; sourceTree = "<group>"; };
-		4A3B7F7A1D34202900029768 /* SignatureVerifyer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignatureVerifyer.m; path = Services/SignatureVerifyer.m; sourceTree = "<group>"; };
-		4A3B7F7C1D3421B800029768 /* MessageDecrypter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageDecrypter.h; path = Services/MessageDecrypter.h; sourceTree = "<group>"; };
-		4A3B7F7D1D3421B800029768 /* MessageDecrypter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageDecrypter.m; path = Services/MessageDecrypter.m; sourceTree = "<group>"; };
-		4A3B7F7F1D342D4700029768 /* MessageBadgeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageBadgeManager.h; path = Services/MessageBadgeManager.h; sourceTree = "<group>"; };
-		4A3B7F801D342D4700029768 /* MessageBadgeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageBadgeManager.m; path = Services/MessageBadgeManager.m; sourceTree = "<group>"; };
-		4A3B7F821D3431DF00029768 /* Cryptography.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cryptography.h; path = Services/Cryptography.h; sourceTree = "<group>"; };
-		4A3B7F831D3431DF00029768 /* Cryptography.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cryptography.m; path = Services/Cryptography.m; sourceTree = "<group>"; };
+		4A3B7F6C1D3411B900029768 /* SKRAMPGpgButtonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKRAMPGpgButtonManager.h; path = Services/SKRAMPGpgButtonManager.h; sourceTree = "<group>"; };
+		4A3B7F6D1D3411B900029768 /* SKRAMPGpgButtonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRAMPGpgButtonManager.m; path = Services/SKRAMPGpgButtonManager.m; sourceTree = "<group>"; };
+		4A3B7F701D34139900029768 /* SKRAMPGpgMessageEncrypter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKRAMPGpgMessageEncrypter.h; path = Services/SKRAMPGpgMessageEncrypter.h; sourceTree = "<group>"; };
+		4A3B7F711D34139900029768 /* SKRAMPGpgMessageEncrypter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRAMPGpgMessageEncrypter.m; path = Services/SKRAMPGpgMessageEncrypter.m; sourceTree = "<group>"; };
+		4A3B7F731D341A5F00029768 /* SKRAMPGpgEncryptionCapabilityChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKRAMPGpgEncryptionCapabilityChecker.h; path = Services/SKRAMPGpgEncryptionCapabilityChecker.h; sourceTree = "<group>"; };
+		4A3B7F741D341A5F00029768 /* SKRAMPGpgEncryptionCapabilityChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRAMPGpgEncryptionCapabilityChecker.m; path = Services/SKRAMPGpgEncryptionCapabilityChecker.m; sourceTree = "<group>"; };
+		4A3B7F761D341F0700029768 /* SKRAMPGpgEncryptionChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKRAMPGpgEncryptionChecker.h; path = Services/SKRAMPGpgEncryptionChecker.h; sourceTree = "<group>"; };
+		4A3B7F771D341F0700029768 /* SKRAMPGpgEncryptionChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRAMPGpgEncryptionChecker.m; path = Services/SKRAMPGpgEncryptionChecker.m; sourceTree = "<group>"; };
+		4A3B7F791D34202900029768 /* SKRAMPGpgSignatureVerifyer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKRAMPGpgSignatureVerifyer.h; path = Services/SKRAMPGpgSignatureVerifyer.h; sourceTree = "<group>"; };
+		4A3B7F7A1D34202900029768 /* SKRAMPGpgSignatureVerifyer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRAMPGpgSignatureVerifyer.m; path = Services/SKRAMPGpgSignatureVerifyer.m; sourceTree = "<group>"; };
+		4A3B7F7C1D3421B800029768 /* SKRAMPGpgMessageDecrypter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKRAMPGpgMessageDecrypter.h; path = Services/SKRAMPGpgMessageDecrypter.h; sourceTree = "<group>"; };
+		4A3B7F7D1D3421B800029768 /* SKRAMPGpgMessageDecrypter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRAMPGpgMessageDecrypter.m; path = Services/SKRAMPGpgMessageDecrypter.m; sourceTree = "<group>"; };
+		4A3B7F7F1D342D4700029768 /* SKRAMPGpgMessageBadgeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKRAMPGpgMessageBadgeManager.h; path = Services/SKRAMPGpgMessageBadgeManager.h; sourceTree = "<group>"; };
+		4A3B7F801D342D4700029768 /* SKRAMPGpgMessageBadgeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRAMPGpgMessageBadgeManager.m; path = Services/SKRAMPGpgMessageBadgeManager.m; sourceTree = "<group>"; };
+		4A3B7F821D3431DF00029768 /* SKRAMPGpgCryptography.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKRAMPGpgCryptography.h; path = Services/SKRAMPGpgCryptography.h; sourceTree = "<group>"; };
+		4A3B7F831D3431DF00029768 /* SKRAMPGpgCryptography.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRAMPGpgCryptography.m; path = Services/SKRAMPGpgCryptography.m; sourceTree = "<group>"; };
 		4A3B7F851D34CA3400029768 /* SKRAMPGpgButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKRAMPGpgButton.h; path = Views/SKRAMPGpgButton.h; sourceTree = "<group>"; };
 		4A3B7F861D34CA3400029768 /* SKRAMPGpgButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRAMPGpgButton.m; path = Views/SKRAMPGpgButton.m; sourceTree = "<group>"; };
 		4A3B7F881D34F3BF00029768 /* Libmacgpg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Libmacgpg.framework; path = Frameworks/Libmacgpg.framework; sourceTree = "<group>"; };
@@ -87,22 +87,22 @@
 		4A3B7F6F1D3411C300029768 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				4A3B7F821D3431DF00029768 /* Cryptography.h */,
-				4A3B7F831D3431DF00029768 /* Cryptography.m */,
-				4A3B7F6C1D3411B900029768 /* ButtonManager.h */,
-				4A3B7F6D1D3411B900029768 /* ButtonManager.m */,
-				4A3B7F701D34139900029768 /* MessageEncrypter.h */,
-				4A3B7F711D34139900029768 /* MessageEncrypter.m */,
-				4A3B7F7C1D3421B800029768 /* MessageDecrypter.h */,
-				4A3B7F7D1D3421B800029768 /* MessageDecrypter.m */,
-				4A3B7F731D341A5F00029768 /* EncryptionCapabilityChecker.h */,
-				4A3B7F741D341A5F00029768 /* EncryptionCapabilityChecker.m */,
-				4A3B7F761D341F0700029768 /* EncryptionChecker.h */,
-				4A3B7F771D341F0700029768 /* EncryptionChecker.m */,
-				4A3B7F791D34202900029768 /* SignatureVerifyer.h */,
-				4A3B7F7A1D34202900029768 /* SignatureVerifyer.m */,
-				4A3B7F7F1D342D4700029768 /* MessageBadgeManager.h */,
-				4A3B7F801D342D4700029768 /* MessageBadgeManager.m */,
+				4A3B7F821D3431DF00029768 /* SKRAMPGpgCryptography.h */,
+				4A3B7F831D3431DF00029768 /* SKRAMPGpgCryptography.m */,
+				4A3B7F6C1D3411B900029768 /* SKRAMPGpgButtonManager.h */,
+				4A3B7F6D1D3411B900029768 /* SKRAMPGpgButtonManager.m */,
+				4A3B7F701D34139900029768 /* SKRAMPGpgMessageEncrypter.h */,
+				4A3B7F711D34139900029768 /* SKRAMPGpgMessageEncrypter.m */,
+				4A3B7F7C1D3421B800029768 /* SKRAMPGpgMessageDecrypter.h */,
+				4A3B7F7D1D3421B800029768 /* SKRAMPGpgMessageDecrypter.m */,
+				4A3B7F731D341A5F00029768 /* SKRAMPGpgEncryptionCapabilityChecker.h */,
+				4A3B7F741D341A5F00029768 /* SKRAMPGpgEncryptionCapabilityChecker.m */,
+				4A3B7F761D341F0700029768 /* SKRAMPGpgEncryptionChecker.h */,
+				4A3B7F771D341F0700029768 /* SKRAMPGpgEncryptionChecker.m */,
+				4A3B7F791D34202900029768 /* SKRAMPGpgSignatureVerifyer.h */,
+				4A3B7F7A1D34202900029768 /* SKRAMPGpgSignatureVerifyer.m */,
+				4A3B7F7F1D342D4700029768 /* SKRAMPGpgMessageBadgeManager.h */,
+				4A3B7F801D342D4700029768 /* SKRAMPGpgMessageBadgeManager.m */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -259,17 +259,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A3B7F781D341F0700029768 /* EncryptionChecker.m in Sources */,
-				4A3B7F841D3431DF00029768 /* Cryptography.m in Sources */,
-				4A3B7F7B1D34202900029768 /* SignatureVerifyer.m in Sources */,
+				4A3B7F781D341F0700029768 /* SKRAMPGpgEncryptionChecker.m in Sources */,
+				4A3B7F841D3431DF00029768 /* SKRAMPGpgCryptography.m in Sources */,
+				4A3B7F7B1D34202900029768 /* SKRAMPGpgSignatureVerifyer.m in Sources */,
 				4A7A713B1D3126DD001162F1 /* SKRAMPGpg.m in Sources */,
-				4A3B7F751D341A5F00029768 /* EncryptionCapabilityChecker.m in Sources */,
-				4A3B7F7E1D3421B800029768 /* MessageDecrypter.m in Sources */,
+				4A3B7F751D341A5F00029768 /* SKRAMPGpgEncryptionCapabilityChecker.m in Sources */,
+				4A3B7F7E1D3421B800029768 /* SKRAMPGpgMessageDecrypter.m in Sources */,
 				4A7A71461D312D79001162F1 /* SKRAMPGpgView.m in Sources */,
 				4A3B7F871D34CA3400029768 /* SKRAMPGpgButton.m in Sources */,
-				4A3B7F721D34139900029768 /* MessageEncrypter.m in Sources */,
-				4A3B7F6E1D3411B900029768 /* ButtonManager.m in Sources */,
-				4A3B7F811D342D4700029768 /* MessageBadgeManager.m in Sources */,
+				4A3B7F721D34139900029768 /* SKRAMPGpgMessageEncrypter.m in Sources */,
+				4A3B7F6E1D3411B900029768 /* SKRAMPGpgButtonManager.m in Sources */,
+				4A3B7F811D342D4700029768 /* SKRAMPGpgMessageBadgeManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  MessageDecrypter.h
+//  MessageBadgeManager.h
 //  SKR-AMP-GPGPlugin
 //
 //  Created by Stanko Krtalic Rusendic on 11/07/16.
@@ -9,10 +9,12 @@
 #import <Foundation/Foundation.h>
 #import <AMPluginFramework/AMPluginFramework.h>
 
-@interface MessageDecrypter : NSObject
+@interface SKRAMPGpgMessageBadgeManager : NSObject
 
 @property (nonatomic) AMPMessage *message;
+@property (nonatomic) NSNumber *encryptionStatus;
+@property (nonatomic) NSNumber *signatureStatus;
 
-- (NSData *)decrypt;
+- (NSArray *)generateBadges;
 
 @end

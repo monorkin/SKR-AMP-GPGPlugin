@@ -6,9 +6,9 @@
 //  Copyright © 2016 Monorkin. All rights reserved.
 //
 
-#import "EncryptionChecker.h"
+#import "SKRAMPGpgEncryptionChecker.h"
 
-@implementation EncryptionChecker
+@implementation SKRAMPGpgEncryptionChecker
 
 - (NSInteger)encryptionStatus
 {

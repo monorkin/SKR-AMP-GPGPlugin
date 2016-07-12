@@ -6,9 +6,9 @@
 //  Copyright © 2016 Monorkin. All rights reserved.
 //
 
-#import "ButtonManager.h"
+#import "SKRAMPGpgButtonManager.h"
 
-@implementation ButtonManager
+@implementation SKRAMPGpgButtonManager
 
 #pragma mark - Builders
 

@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <Libmacgpg/Libmacgpg.h>
 
-@interface Cryptography : NSObject
+@interface SKRAMPGpgCryptography : NSObject
 
-
+- (BOOL)canEncryptForMail: (NSString *)email;
 
 @end
