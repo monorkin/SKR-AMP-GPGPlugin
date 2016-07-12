@@ -305,6 +305,8 @@
 
 #pragma mark - Service builders
 
+// Builds a button manager and forwards all needed resources
+//
 - (ButtonManager *)buildButtonManagerWithInfo: (AMPComposerInfo *)info
 {
     ButtonManager *buttonManager = [[ButtonManager alloc] init];

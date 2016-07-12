@@ -16,6 +16,7 @@
 		4A3B7F811D342D4700029768 /* MessageBadgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F801D342D4700029768 /* MessageBadgeManager.m */; };
 		4A3B7F841D3431DF00029768 /* Cryptography.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F831D3431DF00029768 /* Cryptography.m */; };
 		4A3B7F871D34CA3400029768 /* SKRAMPGpgButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B7F861D34CA3400029768 /* SKRAMPGpgButton.m */; };
+		4A3B7F891D34F3BF00029768 /* Libmacgpg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3B7F881D34F3BF00029768 /* Libmacgpg.framework */; };
 		4A7A71321D31258C001162F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7A71311D31258C001162F1 /* Cocoa.framework */; };
 		4A7A71361D312660001162F1 /* AMPluginFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7A71351D312660001162F1 /* AMPluginFramework.framework */; };
 		4A7A713B1D3126DD001162F1 /* SKRAMPGpg.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A713A1D3126DD001162F1 /* SKRAMPGpg.m */; };
@@ -56,6 +57,7 @@
 		4A3B7F831D3431DF00029768 /* Cryptography.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cryptography.m; path = Services/Cryptography.m; sourceTree = "<group>"; };
 		4A3B7F851D34CA3400029768 /* SKRAMPGpgButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKRAMPGpgButton.h; path = Views/SKRAMPGpgButton.h; sourceTree = "<group>"; };
 		4A3B7F861D34CA3400029768 /* SKRAMPGpgButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRAMPGpgButton.m; path = Views/SKRAMPGpgButton.m; sourceTree = "<group>"; };
+		4A3B7F881D34F3BF00029768 /* Libmacgpg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Libmacgpg.framework; path = Frameworks/Libmacgpg.framework; sourceTree = "<group>"; };
 		4A7A71251D31250F001162F1 /* SKR-AMP-GPGPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SKR-AMP-GPGPlugin.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7A71281D31250F001162F1 /* SKRAMPGpg-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKRAMPGpg-Info.plist"; sourceTree = "<group>"; };
 		4A7A71311D31258C001162F1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -73,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A3B7F891D34F3BF00029768 /* Libmacgpg.framework in Frameworks */,
 				4A7A71361D312660001162F1 /* AMPluginFramework.framework in Frameworks */,
 				4A7A71321D31258C001162F1 /* Cocoa.framework in Frameworks */,
 			);
@@ -136,6 +139,7 @@
 		4A7A71301D31257C001162F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A3B7F881D34F3BF00029768 /* Libmacgpg.framework */,
 				4A7A71351D312660001162F1 /* AMPluginFramework.framework */,
 				4A7A71311D31258C001162F1 /* Cocoa.framework */,
 			);

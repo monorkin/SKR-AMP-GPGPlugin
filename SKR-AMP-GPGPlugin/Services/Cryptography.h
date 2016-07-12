@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Libmacgpg/Libmacgpg.h>
 
 @interface Cryptography : NSObject
+
+
 
 @end
