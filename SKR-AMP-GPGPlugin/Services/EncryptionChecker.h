@@ -13,6 +13,8 @@
 
 @property (nonatomic) AMPMCOMessageParser *parser;
 
+- (NSInteger)encryptionStatus;
 - (BOOL)isEncrypted;
+- (BOOL)isSigned;
 
 @end
