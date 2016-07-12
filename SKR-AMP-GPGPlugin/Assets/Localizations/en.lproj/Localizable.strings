@@ -13,3 +13,8 @@
 
 "encrypt_button_tooltip" = "Encrypt the message";
 "sign_button_tooltip" = "Sign the message";
+
+"decrypted" = "Decrypted";
+"decryption_failed" = "Failed to decrypt";
+"signed" = "Verified";
+"not_signed" = "Unverified";

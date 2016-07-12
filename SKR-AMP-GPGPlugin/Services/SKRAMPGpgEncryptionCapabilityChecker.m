@@ -44,4 +44,9 @@
     return true;
 }
 
+- (BOOL)canSign
+{
+    return [self.cryptography canSignWithMail: self.info.localMessage.from.mail];
+}
+
 @end

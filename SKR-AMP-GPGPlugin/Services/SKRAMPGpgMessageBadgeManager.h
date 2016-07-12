@@ -14,6 +14,10 @@
 @property (nonatomic) AMPMessage *message;
 @property (nonatomic) NSNumber *encryptionStatus;
 @property (nonatomic) NSNumber *signatureStatus;
+@property (nonatomic) NSImage *encryptedIcon;
+@property (nonatomic) NSImage *unencryptedIcon;
+@property (nonatomic) NSImage *signedIcon;
+@property (nonatomic) NSImage *unsignedIcon;
 
 - (NSArray *)generateBadges;
 

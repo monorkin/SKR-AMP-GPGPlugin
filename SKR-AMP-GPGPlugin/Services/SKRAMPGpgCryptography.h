@@ -12,5 +12,6 @@
 @interface SKRAMPGpgCryptography : NSObject
 
 - (BOOL)canEncryptForMail: (NSString *)email;
+- (BOOL)canSignWithMail: (NSString *)email;
 
 @end

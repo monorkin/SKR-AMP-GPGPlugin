@@ -31,5 +31,9 @@ extern NSString * const AMPGpgRemeberChoice;
 @property (nonatomic, strong) NSImage *inactiveEncryptImage;
 @property (nonatomic, strong) NSImage *activeSignImage;
 @property (nonatomic, strong) NSImage *inactiveSignImage;
+@property (nonatomic, strong) NSImage *encryptedIcon;
+@property (nonatomic, strong) NSImage *unencryptedIcon;
+@property (nonatomic, strong) NSImage *signedIcon;
+@property (nonatomic, strong) NSImage *unsignedIcon;
 
 @end
