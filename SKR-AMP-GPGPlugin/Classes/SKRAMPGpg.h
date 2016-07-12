@@ -27,5 +27,9 @@ extern NSString * const AMPGpgRemeberChoice;
 @property (nonatomic, strong) NSMutableDictionary *encryptedMessages;
 @property (nonatomic, strong) SKRAMPGpgView *view;
 @property (nonatomic, strong) NSImage *icon;
+@property (nonatomic, strong) NSImage *activeEncryptImage;
+@property (nonatomic, strong) NSImage *inactiveEncryptImage;
+@property (nonatomic, strong) NSImage *activeSignImage;
+@property (nonatomic, strong) NSImage *inactiveSignImage;
 
 @end

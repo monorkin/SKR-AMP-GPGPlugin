@@ -10,3 +10,6 @@
 "plugin_description" = "A better integration of PGP/GPG message encryption and signing into Airmail.";
 "plugin_author" = "Stanko Krtalić Rusendić";
 "plugin_support_link" = "https://github.com/Stankec/SKR-AMP-GPGPlugin";
+
+"encrypt_button_tooltip" = "Encrypt the message";
+"sign_button_tooltip" = "Sign the message";

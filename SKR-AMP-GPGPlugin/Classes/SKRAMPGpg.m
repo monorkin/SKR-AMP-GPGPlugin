@@ -139,8 +139,7 @@
 //
 - (NSArray *)ampPileComposerView: (AMPComposerInfo *)info
 {
-    ButtonManager *buttonManager = [[ButtonManager alloc] init];
-    buttonManager.info = info;
+    ButtonManager *buttonManager = [self buildButtonManagerWithInfo: info];
     return buttonManager.buildComposerButtons;
 }
 
@@ -158,8 +157,7 @@
     BOOL canEncrypt = encryptionCapabilityChecker.canEncrypt;
     BOOL canSign = encryptionCapabilityChecker.canSign;
     
-    ButtonManager *buttonManager = [[ButtonManager alloc] init];
-    buttonManager.info = info;
+    ButtonManager *buttonManager = [self buildButtonManagerWithInfo: info];
     
     [buttonManager setButtonStatesFromCanEncrypt: canEncrypt
                                       andCanSign: canSign];
@@ -250,8 +248,7 @@
     AMPSendResult *sendResult = [AMPSendResult new];
     sendResult.result = AMP_SEND_RESULT_NONE;
     
-    ButtonManager *buttonManager = [[ButtonManager alloc] init];
-    buttonManager.info = info;
+    ButtonManager *buttonManager = [self buildButtonManagerWithInfo: info];
     
     BOOL shouldEncrypt = buttonManager.shouldEncrypt;
     BOOL shouldSign = buttonManager.shouldSign;
@@ -304,6 +301,22 @@
     }
     
     return messageBadgeManager.generateBadges;
+}
+
+#pragma mark - Service builders
+
+- (ButtonManager *)buildButtonManagerWithInfo: (AMPComposerInfo *)info
+{
+    ButtonManager *buttonManager = [[ButtonManager alloc] init];
+    
+    buttonManager.info = info;
+    buttonManager.plugin = self;
+    buttonManager.activeEncryptImage = self.activeEncryptImage;
+    buttonManager.inactiveEncryptImage = self.inactiveEncryptImage;
+    buttonManager.activeSignImage = self.activeSignImage;
+    buttonManager.inactiveSignImage = self.inactiveSignImage;
+    
+    return buttonManager;
 }
 
 @end
