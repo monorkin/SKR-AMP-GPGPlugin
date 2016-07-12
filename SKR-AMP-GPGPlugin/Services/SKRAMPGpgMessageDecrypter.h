@@ -8,9 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import <AMPluginFramework/AMPluginFramework.h>
+#import "SKRAMPGpgCryptography.h"
 
 @interface SKRAMPGpgMessageDecrypter : NSObject
 
+@property (nonatomic) SKRAMPGpgCryptography *cryptography;
 @property (nonatomic) AMPMessage *message;
 
 - (NSData *)decrypt;

@@ -8,9 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import <AMPluginFramework/AMPluginFramework.h>
+#import "SKRAMPGpgCryptography.h"
 
 @interface SKRAMPGpgMessageEncrypter : NSObject
 
+@property (nonatomic) SKRAMPGpgCryptography *cryptography;
 @property (nonatomic) AMPComposerInfo *info;
 @property (nonatomic) NSString *rfc;
 @property (nonatomic) BOOL shouldEncrypt;
@@ -20,5 +22,7 @@
 - (NSString *)sign;
 - (NSString *)encryptAndSign;
 - (NSString *)process;
+- (NSString *)encryptMessage: (NSString *)message;
+- (NSString *)signMessage: (NSString *)message;
 
 @end

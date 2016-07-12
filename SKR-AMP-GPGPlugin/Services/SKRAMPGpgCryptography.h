@@ -13,5 +13,11 @@
 
 - (BOOL)canEncryptForMail: (NSString *)email;
 - (BOOL)canSignWithMail: (NSString *)email;
-
+- (NSString *) encryptMessage: (NSString *)message
+                    withEmail: (NSString *)sender
+                forRecipients: (NSArray *)recipients
+         withHiddenRecipients: (NSArray *)hiddenRecipients;
+- (NSString *) signMessage: (NSString *)message
+                 withEmail: (NSString *)sender;
+- (NSData *) decryptData: (NSData *)data;
 @end
