@@ -8,11 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import <AMPluginFramework/AMPluginFramework.h>
+#import "SKRAMPGpgCryptography.h"
 
 @interface SKRAMPGpgSignatureVerifyer : NSObject
 
 @property (nonatomic) AMPMessage *message;
 
+@property (nonatomic) SKRAMPGpgCryptography *cryptography;
 - (AMPSignatureVerify *)verify;
 
 @end

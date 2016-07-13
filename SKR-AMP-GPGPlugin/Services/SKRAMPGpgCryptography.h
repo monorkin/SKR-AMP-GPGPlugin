@@ -20,4 +20,7 @@
 - (NSString *) signMessage: (NSString *)message
                  withEmail: (NSString *)sender;
 - (NSData *) decryptData: (NSData *)data;
+- (BOOL) verifySignature: (NSData *)signature
+                 forData: (NSData *)data
+                 byEmail: (NSString *)email;
 @end
