@@ -177,7 +177,7 @@
 
 // Called to check if the message is signed
 //
-// Sheck if the message is signed. If it's signed store
+// Check if the message is signed. If it's signed store
 // it in the signed messages dictionary so that we can perform
 // other checks in the future.
 //
